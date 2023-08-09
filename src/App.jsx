@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   return (
-    <main className="bg-[url('images/bg-2.jpg')] bg-cover text-white min-h-screen flex justify-center items-center font-lato px-4 ">
+    <main className="bg-[url('/images/bg-2.jpg')] bg-cover text-white min-h-screen flex justify-center items-center font-lato px-4 ">
       <Weather weatherInfo={weatherInfo}/>
     </main>
   );
