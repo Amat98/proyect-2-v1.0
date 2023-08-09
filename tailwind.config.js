@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   'bg-1': "url('/images/bg-1.jpg')"
-      // }
+      backgroundImage: {
+        'bg-2': "url('/images/bg-2.jpg')"
+      }
     },
     fontFamily: {
       "lato": ["lato", "sans-serif"]
