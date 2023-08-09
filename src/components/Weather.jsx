@@ -32,7 +32,7 @@ const Weather = ({ weatherInfo }) => {
         </section>
 
         {/* Seccion inferior */}
-        <section className=" bg-white/20 backdrop-blur-sm p-2 rounded-2xl grid grid-cols-3 items-center py-4  sm:grid-cols-1 text-[17px] sm:text-[20px]">
+        <section className=" bg-white/20 backdrop-blur-sm p-2 rounded-2xl grid grid-cols-3 items-center py-4  sm:grid-cols-1 text-[17px] sm:text-[30px]">
           <article className="flex gap-2 items-center mx-auto ">
             <div className="w-[30px]">
                 <img src={"/images/wind.png"} alt="" />
