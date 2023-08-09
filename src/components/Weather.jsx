@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const Weather = ({ weatherInfo }) => {
+    console.log(weatherInfo)
     const [isCelsius, setIsCelsius] = useState(true)
 
     const kelvinToCelsius = (tempKelvin) => {
@@ -48,14 +49,14 @@ const Weather = ({ weatherInfo }) => {
             <div className="w-[30px]">
                 <img src={"/images/pressure.png"} alt="" />
             </div>
-            <span>{weatherInfo?.main.temp}hPa</span>
+            <span>{weatherInfo?.main.pressure}hPa</span>
           </article>
         </section>
 
 
       </section>
         <button onClick={handleChange} className=" bg-white text-sky-500 w-[200px] mx-auto p-2 rounded-xl text-xl mt-5 hover:scale-110 transition">
-            Cambiar F/C°
+            Switch F/C°
         </button>
     </section>
   );
